@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #92c7cf;
+    --cor2: #aad7d9;
+    --cor3: #fbf9f1;
+    --cor4: #e5e1da;
+    --cor5: #0f4c75;
+}
+
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body, html{
+    background-color:var(--cor5);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor3);
+    overflow: hidden;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.449);
+    transition: width 1s, heigth 1s;
+    transition-timing-function: ease;
+}
+
+div#img{
+    display: block;
+    background: #0f4c75 url(../imagens/dogwhite.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+}
+
+div#formulario{
+    padding: 10px;
+    display: block;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+p{
+    float: left;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: -8px;
+    padding: 2px;
+    background-color: rgba(128, 128, 128, 0.168);
+}
+
+div.campo{
+    color:rgb(69, 115, 116);
+    display: block;
+    margin: 5px 0px;
+}
+
+
+a.botao{
+    color: rgba(197, 5, 5, 0.86);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    
+    
+}
+
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    background-color:#688d93;
+    color: white;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: dodgerblue;
+}
+
+input[type=email]{
+
+    border: solid 1px ;
+    border-color: #0f4c75;
+    height: 25px;
+}
+
+input[type=password]{
+    border: solid 1px;
+    border-color: #0f4c75;
+    height: 25px;
+}
+
+a.botao:hover{
+    color: dodgerblue;
+    display: block;
+    
+}

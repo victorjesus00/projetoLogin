@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+/*TABLETS*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+  
+    
+
+    body{
+        background-image: linear-gradient(to top, #92c7cf,#0f4c75);}
+   
+
+
+    section#login{
+        width: 80vw;}
+
+
+
+    div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: 25% ;}
+
+
+
+    div#formulario{
+        float: right;
+        width: 70%;}
+
+        p{
+            width: 70%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type=submit]{
+            width: 20vw;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            margin-top: 15px;
+        }
+
+
+        a.botao{
+            width: 40vw;
+        }
+
+    }
+
+    
+
+
+
+/*DESKTOP*/
+@media screen and (min-width: 992px)  {
+   
+    body{
+        background-image: linear-gradient(to top, #92c7cf,#0f4c75);
+    }
+
+
+    section#login{
+        width: 950px;}
+
+
+    
+    div#img{
+        float: right;
+        width: 35%;
+        height: 100%;}
+
+
+
+    div#formulario{
+        float: left;
+        width: 50%;}
+
+        p{
+            width: 65%;
+            
+        }
+
+        input[type=submit]{
+            width: 15vw;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            margin-top: 15px;
+        }
+        
+        a.botao{
+            width: 10vw;
+            margin-top: 8px;
+        }
+
+}
+
